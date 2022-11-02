@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    ---fonte: 'Bai Jamjuree', sans-serif;
+    ---p-Strong-Cyan: #26baa4;
+    ---p-Light-Blue: #6173ff;
+    ---n-Dark-Grayish-Blue: #363d44e7;
+    ---n-Grayish-Blue: #657076ee;
+    ---n-footer: #858b8e10;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(---fonte);
+}
+h1, h2, h3 {
+    color: var(---n-Dark-Grayish-Blue);
+}
+
+/* h3 {
+    padding-bottom: 15px;
+    color: var(---n-Dark-Grayish-Blue);
+}
+h2 {
+    color: var(---n-Dark-Grayish-Blue);
+    padding-bottom: 15px;
+} */
+
+p {
+    color: var(---n-Grayish-Blue);
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+html, body {
+    width: 100%;
+}
+
+/* cabeçalho */
+
+header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* logo */
+header img {
+    padding: 30px 0;
+}
+
+/* header p, .five p {
+    padding: 20px 0;
+} */
+
+.botoes {
+    margin: 30px auto 50px;
+    /* max-width: 360px; */
+}
+
+.botoes .btn-ios {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: var(---p-Strong-Cyan);
+    box-shadow: 2px 5px 12px #00000036;
+}
+
+.botoes .btn-mac {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: var(---p-Light-Blue);
+    box-shadow: 2px 5px 12px #00000036;
+}
+
+.botoes .btn-ios:hover {
+    background-color: #0f8b79;
+    transition: all 0.5s;
+}
+
+.botoes .btn-mac:hover {
+    background-color: #4258fc;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* primeira seção */
+.features {
+    background-color: #e3e4e654;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0;
+}
+
+.features img {
+    height: 100%;
+    width: 100%;
+    max-width: 80%;
+}
+
+.features-item div P {
+    margin: 10px 0 15px 0;
+    /* margin-top: 40px; */
+    /* width: 60%; */
+}
+
+/* segunda seção */
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits img {
+    height: 100%;
+    width: 55%;
+    margin: 15px 0 50px 0;
+}
+
+/* terceira seção */
+.tools {
+    background-color: #e3e4e654;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tools .functions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.Resources {
+    max-width: 300px;
+    width: 100%;
+}
+
+.Resources img {
+    height: 32px;
+}
+
+.tools .support img {
+    height: 35px;
+}
+
+.tools .support img:not(:nth-child(5)) {
+    margin-right: 30px;
+}
+
+
+/* QUARTA SEÇÃO */
+.download  {
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* .five .botoes {
+    margin: 20px auto; 
+} */
+
+/* RODAPE */
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(---n-footer);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    /* display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center; */
+}
+
+footer .logo {
+    width: 55px;
+    margin-bottom: 8px;
+}
+
+/* footer ul {
+    list-style: none;
+    max-width: 400px;
+    grid-template-columns: 25% 25% auto;
+    row-gap: 10px;
+} */
+
+/* footer ul li {
+    display: inline-block;
+    margin: 5px 25px;
+} */
+
+/* footer ul li a {
+    text-decoration: none;
+    color: var(---n-Grayish-Blue);
+} */
+
+/* footer ul li a:hover {
+    text-decoration: underline;
+    color: var(---p-Strong-Cyan);
+} */
+
+
+footer .midia-social a {
+    padding: 8px;
+}
+
+footer span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.600);
+}
+
+footer span a {
+    color: var(---n-Dark-Grayish-Blue);
+}

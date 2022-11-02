@@ -1,0 +1,155 @@
+/* main {
+    width: 90%;
+    margin: 150px auto 0 auto;
+} */
+
+/* h2 {
+    font-size: 1.7rem;
+} */
+
+/* h3 {
+    font-size: 1.5rem;
+} */
+
+/* cabeçalho */
+header {
+    padding: 0 15px;
+}
+
+/* .container {
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+} */
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.botoes .btn {
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+/* Primeira Section */
+/* .one {
+    width: 100%;
+    max-width: 85%;
+} */
+
+/* primeira seção  */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    padding: 30px 0;
+    /* background-color: #ffffff; */
+}
+
+.features img {
+    max-width: 60%;
+    /* margin: 0 auto; */
+}
+
+.features .features-item div {
+    width: 80%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+/* segunda seção  */
+.benefits {
+    margin: 30px auto 0;
+    /* width: 90%; */
+}
+
+.benefits img {
+    width: 80%;
+}
+
+/* .three div:nth-child(3){
+    margin-top: 70px;
+} */
+
+/* terceira seção */
+/* .for {
+    background-color: #ffffff;
+} */
+
+.tools .functions {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+/* .functions .Resources {
+    width: 85%;
+    margin: 20px;
+} */
+
+/* Empresas de Apoio */
+.tools {
+    padding: 30px 0;
+}
+
+.tools .support {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width: 420px) {
+  .tools .support {
+    display: none;
+   }
+}
+
+.tools .support img:not(:nth-child(5)) {
+    margin-right: 0px;
+}
+
+/* .for .support img {
+    padding: 30px;
+} */
+
+/* Quinta Section - section Download */
+.download {
+    padding: 30px 0 0;
+}
+
+.download p {
+    width: 70%;
+    margin: 15px auto;
+}
+
+/* Footer */
+footer .container span {
+    display: block;
+    width: 85%;
+    font-size: 12px;
+    margin: auto;
+}
+/* footer {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .foot {
+    margin: 30px;
+} */
+
+/* .navigations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+} */
+
+/* footer ul li {
+    padding: 20px 0;
+} */
