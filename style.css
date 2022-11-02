@@ -19,15 +19,6 @@ h1, h2, h3 {
     color: var(---n-Dark-Grayish-Blue);
 }
 
-/* h3 {
-    padding-bottom: 15px;
-    color: var(---n-Dark-Grayish-Blue);
-}
-h2 {
-    color: var(---n-Dark-Grayish-Blue);
-    padding-bottom: 15px;
-} */
-
 p {
     color: var(---n-Grayish-Blue);
     font-weight: 400;
@@ -55,13 +46,8 @@ header img {
     padding: 30px 0;
 }
 
-/* header p, .five p {
-    padding: 20px 0;
-} */
-
 .botoes {
     margin: 30px auto 50px;
-    /* max-width: 360px; */
 }
 
 .botoes .btn-ios {
@@ -113,8 +99,6 @@ header img {
 
 .features-item div P {
     margin: 10px 0 15px 0;
-    /* margin-top: 40px; */
-    /* width: 60%; */
 }
 
 /* segunda seção */
@@ -164,19 +148,14 @@ header img {
     margin-right: 30px;
 }
 
-
-/* QUARTA SEÇÃO */
+/* quarta seção */
 .download  {
     text-align: center;
     margin: auto;
     padding: 50px 0;
 }
 
-/* .five .botoes {
-    margin: 20px auto; 
-} */
-
-/* RODAPE */
+/* rodape */
 footer {
     width: 100%;
     padding: 10px 0;
@@ -187,41 +166,14 @@ footer {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    /* display: grid;
-    grid-template-columns: 20% 60% 20%;
-    align-items: center; */
 }
 
 footer .logo {
     width: 55px;
-    margin-bottom: 8px;
 }
 
-/* footer ul {
-    list-style: none;
-    max-width: 400px;
-    grid-template-columns: 25% 25% auto;
-    row-gap: 10px;
-} */
-
-/* footer ul li {
-    display: inline-block;
-    margin: 5px 25px;
-} */
-
-/* footer ul li a {
-    text-decoration: none;
-    color: var(---n-Grayish-Blue);
-} */
-
-/* footer ul li a:hover {
-    text-decoration: underline;
-    color: var(---p-Strong-Cyan);
-} */
-
-
-footer .midia-social a {
-    padding: 8px;
+footer .midia-social {
+    margin: 10px 0;
 }
 
 footer span {
